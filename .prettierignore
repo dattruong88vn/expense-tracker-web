@@ -1,0 +1,7 @@
+dist
+coverage
+node_modules
+package-lock.json
+src/api/schema.d.ts
+# Design tokens keep the exact notation of the design index (hex case, decimals); Prettier would rewrite it.
+src/index.css
