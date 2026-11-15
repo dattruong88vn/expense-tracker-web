@@ -1,11 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { apiClient } from './client';
-
-/** Response of `GET /health`. Replace with the type from `schema.d.ts` once the contract is generated. */
-export interface HealthResponse {
-  status: 'ok';
-}
+import type { HealthResponse } from './types';
 
 export const healthKeys = {
   all: ['health'] as const,
