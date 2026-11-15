@@ -1,5 +1,7 @@
 # expense-tracker-web
 
+[![ci](https://github.com/dattruong88vn/expense-tracker-web/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dattruong88vn/expense-tracker-web/actions/workflows/ci.yml)
+
 Web client of Expense Tracker: React, TypeScript (strict), Vite, Tailwind CSS v4 with shadcn/ui, React Router, TanStack Query, React Hook Form and Zod. It is deployed to Azure Static Web Apps.
 
 ## Prerequisites
